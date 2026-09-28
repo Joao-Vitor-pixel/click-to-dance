@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+body {
+    font-family: 'Comic Relief', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/background.jpg');
+}
+
+.div-title-01{
+    width: 100%;
+   
+}
+.title-01{
+    font-size: 40px;
+    background-color: white;
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.div-name{
+    width: 100%;
+    margin-top: 30vh;
+    display: block;
+    
+}
+.input-name{
+    width: 25%;
+    height: 2vh;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.input-name-erro{
+    width: 25%;
+    height: 2vh;
+    padding: 10px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 30px;
+}
+.msg-erro{
+    color: red;
+    font-size: 25px;
+}
+
+.btn-name{
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    border-radius: 31px;
+    background-color:white;
+}
+
+.btn-name:hover{
+    background-color: rgba(0, 88, 251, 0.549);
+    cursor: pointer;
+}
+
+.div-home{
+    display: none;
+}
+
+.subtitle-home{
+    margin:0;
+}
+.img-rat{
+     width: 10%;
+}
+
+.div-pista{
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+    display:none;
+}
+.pista2{
+   width: 20%;
+    height: 85%;
+    border: 4px solid black;
+    border-radius: 8px;
+    display:none;
+}
+.pista{
+    width: 37%;
+    height: 86%;
+    border: 4px solid black;
+    border-radius: 8px;
+    
+}
+.skin-dance{
+    width: 100%;
+    height: 100%;
+}
+.pontos{
+    width: 7%;
+    height: 4vh;
+    margin-left: 10px;
+    font-size: 19px;
+    border: 4px solid black;
+    border-radius: 15px;
+    text-align: center;
+    position: fixed;
+}
+
+.skin1:active{
+    transform: scale(0.9);
+}
+
+.div-loja{
+    width: 100%;
+    height: 75vh;
+    display:none;
+}
+.loja{
+    width: 70%;
+    height: 40vh;
+    margin-top: 20px;
+    background-color: rgba(134, 134, 134, 0.382);
+    border: 3px solid black;
+    border-radius: 8px;
+    
+}
+
+.divs-loja{
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid black;
+    
+    
+}
+.h4{
+    margin: 0;
+}
+
+
+.img-pista-skin1{
+    width: 12%;
+    height: 15vh;
+    margin-inline: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url('imgs/background.jpg');
+    background-size: cover;
+}
+
+
+.img-pista-skin2{
+    width: 12%;
+    height: 15vh;
+    margin-inline: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url('imgs/MinecraftBackground.jpg');
+    background-size: cover;
+}
+
+.img-pista-skin3{
+    width: 12%;
+    height: 15vh;
+    margin-inline: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url('imgs/pista-katana0.webp');
+    background-size: cover;
+}
+
+.img-pista-skin4{
+    width: 12%;
+    height: 15vh;
+    margin-inline: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url('imgs/crash-map2.jpg');
+    background-size: cover;
+}
+.img-pista-skin5{
+    width: 12%;
+    height: 15vh;
+    margin-inline: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url('imgs/Dance_Club_July_2014.webp');
+    background-size: cover;
+}
+
+.skins-pista:hover{
+    border: 2px solid green;
+}
+
+.txt-pistas{
+    color: red;
+    text-align: center;
+    font-size: 21px;
+    border: 1px solid black;
+    background-color: #8080808c;
+}
+
+.loja-pista{
+    display: flex;
+}
+
+.skin-background{
+    background-image: url('imgs/background.jpg');
+    background-size: cover;
+}
+
+.skin-background2{
+    background-image: url('imgs/MinecraftBackground.jpg');
+    background-size: cover;
+}
+.skin-background3{
+    background-image: url('imgs/pista-katana0.webp');
+    background-size: cover;
+}
+.skin-background4{
+    background-image: url('imgs/crash-map2.jpg');
+    background-size: cover;
+}
+.skin-background5{
+    background-image: url('imgs/Dance_Club_July_2014.webp');
+    background-size: cover;
+}
+
+.skin-dance1{
+    transform: scaleX(-1);
+}
+
+.desc1{
+    color: red;
+}
+
+.dancarino{
+    width: 12%;
+    height: 15vh;
+    margin-inline: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-size: cover;
+}
+.dancarino:hover{
+     border: 2px solid green;
+}
+
+.img-danca1{
+    background-image: url('imgs/skin1/dança01.gif');
+}
+.img-danca2{
+    background-image: url('imgs/dancing-banana.gif');
+}
+.img-danca3{
+    background-image: url(imgs/AlienPls.gif);
+}
